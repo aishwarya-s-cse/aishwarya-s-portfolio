@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya S | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #f8fafc; color: #334155; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .section-card { background: white; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 2rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }
+        .heading-accent { border-left: 4px solid #3b82f6; padding-left: 1rem; color: #1e293b; }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <header class="min-h-[50vh] flex flex-col justify-center items-center text-center px-6 bg-slate-100">
+        <h1 class="text-5xl font-bold text-slate-900 mb-2">Aishwarya S</h1>
+        <p class="text-xl text-blue-600 font-semibold mb-8 tracking-widest uppercase">Data Analyst Trainee</p>
+        <a href="#AboutMe" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">View Portfolio</a>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 space-y-12 py-12">
+        
+        <section id="AboutMe" class="section-card">
+            <h2 class="text-2xl font-bold mb-4 heading-accent">About Me</h2>
+            <p class="text-slate-600">Dedicated Data Analyst Trainee with experience in Python, SQL, and Power BI. Experienced in automating telemetry at ISRO and building analytical reports at Izeon.</p>
+        </section>
+
+        <section id="Skills" class="section-card">
+            <h2 class="text-2xl font-bold mb-4 heading-accent">Skills</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full border border-blue-100 text-sm font-medium">Python</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full border border-blue-100 text-sm font-medium">SQL (MySQL)</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full border border-blue-100 text-sm font-medium">Power BI</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full border border-blue-100 text-sm font-medium">Machine Learning</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full border border-blue-100 text-sm font-medium">MATLAB</span>
+            </div>
+        </section>
+
+        <section id="ExperienceProjects" class="space-y-6">
+            <h2 class="text-2xl font-bold heading-accent">Experience/Projects</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="section-card">
+                    <h3 class="font-bold text-slate-900">ISRO Internship</h3>
+                    <p class="text-slate-500 text-sm">Automated telemetry processing using MATLAB and endian-aware formatting.</p>
+                </div>
+                <div class="section-card">
+                    <h3 class="font-bold text-slate-900">Deep-Space Classification</h3>
+                    <p class="text-slate-500 text-sm">ML project using ResNet50 and EfficientNet for astronomical image classification.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Education" class="section-card">
+            <h2 class="text-2xl font-bold mb-4 heading-accent">Education</h2>
+            <p class="font-bold">M.Tech in Data Science (2026-2028)</p>
+            <p class="text-slate-500 text-sm mb-4">SRM Institute of Science and Technology</p>
+            <p class="font-bold">B.E. in Computer Science Engineering (2021-2025)</p>
+            <p class="text-slate-500 text-sm">Rajalakshmi Institute of Technology</p>
+        </section>
+
+        <section id="Contact" class="section-card text-center">
+            <h2 class="text-2xl font-bold mb-6 heading-accent inline-block">Contact</h2>
+            <div class="flex justify-center gap-8">
+                <a href="mailto:aishwaryasiva2003@gmail.com" class="text-blue-600 font-bold">Email</a>
+                <a href="https://www.linkedin.com/in/aishwarya-s-003" class="text-blue-600 font-bold">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 text-center text-slate-400 text-xs border-t border-slate-200">
+        <p>Aishwarya S | B.E. Computer Science Engineering</p>
+    </footer>
+</body>
+</html>
